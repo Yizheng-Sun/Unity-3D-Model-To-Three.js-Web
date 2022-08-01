@@ -1,0 +1,17 @@
+{
+  "name": "3d-world-master",
+  "version": "1.0.0",
+  "description": "1. Clone this repository on your system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "three": "^0.143.0"
+  }
+}
