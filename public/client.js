@@ -81,7 +81,7 @@ function initScene() {
     // load .fbx model
     const fbxLoader = new FBXLoader();
     fbxLoader.load(
-        "./model/organ.fbx",
+        "./model/BallMagnet.fbx",
         (object) => {
             object.traverse(function (child) {
                 if (child.isMesh) {
