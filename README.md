@@ -25,6 +25,7 @@ User can switch to view VR scene.
 ![Screenshot 2022-07-24 at 22 17 34](https://user-images.githubusercontent.com/105564219/180666380-86f742df-2f9b-4105-8936-981c55ce2af3.png)<img width="1792" alt="Screenshot 2022-07-29 at 10 45 58" src="https://user-images.githubusercontent.com/105564219/181733004-aea41dbc-a62a-4e7e-8f35-b6ec54af3555.png">
 
 ### Deploy to web server
-<br> at http://3.82.113.197:3000/
+http://3.82.113.197:3000/
+<br> I use aws ec2 instance as server and aws s3 as cloud storage
 ![Screenshot 2022-08-02 at 22 58 50](https://user-images.githubusercontent.com/105564219/182480985-bb2eca49-9df8-405b-8307-725a0336c9d5.png)
 
