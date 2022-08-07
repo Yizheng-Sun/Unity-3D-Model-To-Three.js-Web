@@ -4,6 +4,7 @@ import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from "./jsm/loaders/FBXLoader.js";
 import { TGALoader } from "./jsm/loaders/TGALoader.js";
 import { VRButton } from "./jsm/webxr/VRButton.js";
+import { BoxLineGeometry } from "./jsm/geometries/BoxLineGeometry.js";
 
 const container = document.createElement("div");
 document.body.appendChild(container);
@@ -53,6 +54,12 @@ function random(min, max) {
 }
 
 function initScene() {
+    const room = new THREE.LineSegments(
+        new BoxLineGeometry(6, 6, 6, 10, 10, 10),
+        new THREE.LineBasicMaterial({ color: 0x808080 })
+    );
+    room.geometry.translate(0, 3, 0);
+    scene.add(room);
 
     const loader = new TGALoader();
     const texture = loader.load(
