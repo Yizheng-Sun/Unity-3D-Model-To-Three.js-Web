@@ -125,5 +125,3 @@ function render() {
 window.addEventListener('resize', windowResize, false);
 
 
-
-
